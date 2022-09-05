@@ -1,0 +1,33 @@
+.flux_navbar {
+  list-style: none;
+  text-transform: capitalize;
+  display : flex ;
+  justify-content: flex-end;
+  width : 45% ;
+  align-items: center;
+
+}
+
+.flux_navbar-item {
+  font-size : 1.35rem ;
+  -webkit-transition: color 0.25s, font-size 0.25s;
+  -moz-transition: color 0.25s, font-size 0.25s;
+  -o-transition: color 0.25s, font-size 0.25s;
+  transition: color 0.25s, font-size 0.25s;
+  margin-left : auto ;
+  color : rgba(255,255,255,0.7);
+
+}
+
+.flux_navbar-item:hover{
+  color : rgba(255,255,255,1);
+  font-size : 1.4rem;
+  cursor: pointer;
+}
+
+.flux_main-navbar-container {
+ display :flex ;
+ justify-content: space-between;
+ align-items: center;
+ margin : 50px 0 ;
+}

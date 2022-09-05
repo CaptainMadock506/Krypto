@@ -1,0 +1,31 @@
+.flux_main-card-container {
+  width : 32.5% ;
+  margin: 5px ;
+  display : inline-block ;
+}
+
+.flux_card-body {
+  width : 60%;
+  margin : 0px auto ;
+  background-color: #2B226C;
+  text-align: center;
+  border-radius: 10px;
+  padding-top : 20px ;
+}
+
+.flux_card-para{
+  padding : 10px 20px ;
+}
+
+.flux_card-header{
+  padding : 10px;
+  font-weight: bold;
+}
+
+.flux_card-float-img {
+  border-radius : 50% ;
+  width : 20%;
+  position : relative;
+  left : 40%;
+  top : 40px ;
+}

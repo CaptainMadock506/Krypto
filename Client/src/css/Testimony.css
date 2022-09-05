@@ -1,0 +1,52 @@
+.flux_testimony-container {
+  width : 60% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin : 0 auto ;
+}
+
+.flux_testimony-container h1 {
+  text-align: center;
+  margin-top : 10px ;
+}
+
+.flux-card-container {
+  width : 90%;
+  margin : 0 auto ;
+  display : flex ;
+  flex-direction: row;
+  justify-content:  space-around;
+  align-items: center;
+}
+
+.flux_gs-container{
+
+  width : 73% ;
+  padding : 100px ;
+  text-align: center;
+  margin : 100px auto ;
+  background-image : linear-gradient(120deg , #8080D7,#93CFCF) ;
+  border-radius : 20px ;
+  display : flex;
+  flex-direction : column;
+  justify-content: center ;
+  align-items: center;
+}
+
+.flux_gs-container h3{
+  color : black ;
+  text-decoration: none ;
+}
+
+.flux_gs-container button{
+  background-color : black ;
+  font-weight: 300;
+  cursor: pointer ;
+  transition: width 0.2s ;
+}
+
+.flux_gs-container button:hover{
+  width : 30% ;
+}

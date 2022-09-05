@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+
+.flux_text-header{
+  font-family: 'Outfit', sans-serif;
+  color : white ;
+  font-size : 4rem ;
+  text-transform: capitalize;
+  width : 50% ;
+  line-break : strict ;
+  font-weight: 700 ;
+}
+
+
+.flux_text-sub_header {
+  font-family: 'Outfit', sans-serif;
+  color : white ;
+  text-transform: capitalize;
+  width : 50% ;
+  font-size : 3rem ;
+  line-break : strict ;
+  font-weight: 600 ;
+}
+
+.flux_text-item {
+  font-family: 'Roboto', sans-serif;
+  font-size : 1.35rem ;
+  color : white ;
+  font-weight: 400;
+}
+
+.flux_text-button {
+  font-family: 'Roboto', sans-serif;
+  font-size : 0.8rem ;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color : white ;
+  font-weight: 400;
+}
+
+.flux_text-para {
+  font-family: 'Roboto', sans-serif;
+  font-size : 1rem ;
+  color : white ;
+  margin : 30px 0;
+  font-weight: 100
+}
+
+.flux_text-inotation {
+  font-family: 'Outfit', sans-serif;
+  font-size : 1.3rem ;
+  text-transform: uppercase;
+  text-decoration: overline;
+  letter-spacing: 2px ;
+  color : white ;
+  margin: 0;
+  font-weight: 600;
+}
+
+.flux_button-group {
+  display: flex ;
+  flex-flow: row;
+}
+
+.flux_button {
+  width : 180px ;
+  height: 50px ;
+  margin : 0 5px ;
+  border : none ;
+  border-radius: 35px ;
+}
+
+.flux_button-outline {
+  border : 2px solid #93CFCF ;
+  background-color: inherit;
+  transition: background-color 0.2s, border 0.2s;
+}
+
+.flux_button-outline:hover {
+  background-color: #93CFCF;
+  border : none ;
+}
+
+.flux-btn-c1 {
+  background-color: #8C8CDA;
+}
+
+.flux-btn-c2 {
+  background-color: #93CFCF;
+}
+
+.flux_image-container{
+  width : inherit;
+  height: auto;
+}
+
+.flux_brand-header {
+  text-transform: uppercase !important;
+  letter-spacing: 3px;
+  font-size : 1.4rem !important;
+  width : 45% ;
+}
